@@ -2154,6 +2154,86 @@ transform:scale(1.03);
     transform:translateY(-5px);
     box-shadow:0 0 30px rgba(56,189,248,.4);
 }
+/* ================= MOBILE RESPONSIVE ================= */
+
+@media (max-width:768px){
+
+/* Header */
+.header,
+.top-bar,
+.navbar{
+    padding:12px;
+}
+
+/* College name and logos */
+.college-header{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+    flex-wrap:wrap;
+    text-align:center;
+}
+
+.college-header img{
+    width:55px;
+    height:auto;
+}
+
+.college-header h1{
+    font-size:20px;
+    line-height:1.3;
+}
+
+/* Hero section */
+.hero{
+    padding:40px 20px;
+    text-align:center;
+}
+
+.hero h1{
+    font-size:34px;
+}
+
+.hero p{
+    font-size:16px;
+}
+
+/* Buttons */
+.hero-buttons{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+    align-items:center;
+}
+
+.hero-buttons button,
+.hero-buttons a{
+    width:90%;
+    max-width:320px;
+}
+
+/* Remaining slots */
+#slotBox{
+    width:90%;
+    max-width:320px;
+    margin:20px auto 0;
+    text-align:center;
+}
+
+/* Navigation */
+nav ul{
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+/* Images */
+img{
+    max-width:100%;
+    height:auto;
+}
+
+}
 </style>
 
 </head>
@@ -2172,6 +2252,9 @@ transform:scale(1.03);
 
         <div class="center-dot"></div>
 
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+     
         <h1>KRXGEN'26</h1>
         <p>Engineering the Future</p>
 
